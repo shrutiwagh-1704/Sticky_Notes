@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="note.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="note_icon.png">
+    <title>Sticky_Notes</title>
+</head>
+<body>
+    <div class="outermain">
+        <div class="add-btn" title="Add New Note">
+            <i class="fa-solid fa-plus" style="font-size: 30px;"></i>
+        </div>
+
+        <div class="showlist_icons" title="Display noteList">
+            <i class="fa-solid fa-list-ul" style="font-size: 30px;"></i>
+        </div>
+
+        <div class="colors">
+            <div class="color" style="background-color:#2ff3e0"></div>
+            <div class="color" style="background-color: #f8d210"></div>
+            <div class="color" style="background-color: #fa26a0;"></div>
+            <div class="color" style="background-color: #a45c40"></div>
+        </div>
+        
+    </div>
+    <div class="main">
+        <div class="noteList hidden">
+            <div class="heading">
+                <div class="icons">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="searchbar">
+                    <h4>Notes..</h4>
+                    <div class="input-wrapper">
+                        <input type="text" class="searching" placeholder="search here ">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="lists">
+                <!-- <div class="noteadded">
+                    <textarea class="text2" readonly>Hello shruti..</textarea>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="notarea">
+            <!-- <div class="note">
+                <div class="icons_note" style="background-color: yellow;">
+                    <i class="fa-solid fa-plus" style="background-color: yellow;"></i>
+                    <i class="fa-solid fa-check" style="background-color: yellow;"></i>
+                    <i class="fa-solid fa-xmark" style="background-color: yellow;"></i>
+                    <i class="fa-solid fa-ellipsis" style="background-color: yellow;"></i>
+                </div>
+                <div class="menu">
+                    <div class="show_list">Note List</div>
+                    <div class="delete_note">Delete Note</div>
+                </div>
+                <div class="textarea">
+                    <textarea data-changed="true" >Hello shrutiii..</textarea>
+                </div>
+            </div> -->
+        </div>
+        
+    </div>
+</body>
+<script src="note.js"></script>
+</html>
